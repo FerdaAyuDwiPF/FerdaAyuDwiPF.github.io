@@ -1,14 +1,17 @@
 html {
   position: relative;
+  min-height: 100%;
 }
 
 body {
   margin-bottom: 120px;
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron {
   height: 500px;
-  background-image: url(https://img.freepik.com/free-vector/gradient-blue-yellow-liquid-background_23-2149112214.jpg?t=st=1652399109~exp=1652399709~hmac=148e2aad577d8bbde20f98a591f5583d9e92023abd6853058cb09d36ee83570d&w=740);
+  background-image: url(https://img.freepik.com/free-photo/neutral-abstract-texture-minimal-background_53876-98402.jpg?t=st=1652496732~exp=1652497332~hmac=8ede66b9c0754312d577e7a06749d23d5f8dfd5cf1cb48deb1f4428f092b04c4&w=740);
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 -140px;
@@ -26,19 +29,32 @@ hr {
   border-top: 3px solid #999;
 }
 
-section {
-  min-height: 600px;
+.about {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
 }
 
 .portfolio {
-  background-color: #eee;
+  position: relative;
+  background-color: #f7dfdf;
   bottom: 0;
   width: 100%;
-  height: 700px;
+  padding-bottom: 50px;
 }
 
-.contact {
-  min-height: 800px;
+.sertificate {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.img {
+  height: 7px;
 }
 
 p {
@@ -50,12 +66,10 @@ a {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
+  position: relative;
   width: 100%;
-  height: 250px;
-  background-color: rgb(253, 255, 112);
-  padding-top: 30px;
+  background-color: #92cc92;
 }
 
 footer p {
